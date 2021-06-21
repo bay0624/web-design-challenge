@@ -8,13 +8,21 @@
     <title>my-data-dashboard</title>
 
 <body>
+    <style>
+        .container-fluid {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-8">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white">
                     <a class="navbar-brand" href="#">
-                        <div class="p-3 mb-2 bg-success text-white">
-                            <h4>Latitude</h4>
+                        <div class="p-2 bg-info text-white">
+                            <strong>Latitude</strong>
                         </div>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -51,7 +59,73 @@
                     </div>
                 </nav>
             </div>
-            <div class="col-12 bg-light">col-12 col-md-8</div>
+        </div>
+        <div class="container-fluid bg-light">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="p-3 bg-white">
+                        <h3>Summary: Latitude vs. X</h3><hr></br>
+                        <p><img src="static/images/Fig1.png" class="rounded float-left" alt="Latitude vs. X"
+                                style="width:300px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec
+                            ullamcorper sit amet risus. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.
+                            Morbi leo urna molestie at elementum. Ac tincidunt vitae semper quis lectus nulla at. Massa
+                            id
+                            neque aliquam vestibulum morbi. Massa tempor nec feugiat nisl pretium fusce id. Amet dictum
+                            sit
+                            amet justo donec enim diam vulputate ut. Pharetra sit amet aliquam id diam maecenas
+                            ultricies mi
+                            eget. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Velit egestas dui id
+                            ornare
+                            arcu. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Nisi porta lorem mollis
+                            aliquam ut.</p>
+
+                        <p>Nunc non blandit massa enim nec dui nunc mattis enim. Justo nec ultrices dui sapien eget mi
+                            proin. Egestas sed sed risus pretium quam. Mi eget mauris pharetra et. Diam maecenas sed
+                            enim ut
+                            sem viverra aliquet eget. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Urna
+                            id
+                            volutpat lacus laoreet non curabitur gravida arcu. Dui vivamus arcu felis bibendum ut
+                            tristique.
+                            Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Tellus cras adipiscing enim
+                            eu
+                            turpis egestas. Nibh praesent tristique magna sit amet purus gravida. Semper auctor neque
+                            vitae
+                            tempus quam. Neque sodales ut etiam sit amet nisl purus. Varius duis at consectetur lorem
+                            donec.
+                            Ut tristique et egestas quis ipsum. Tincidunt tortor aliquam nulla facilisi cras. Tellus
+                            molestie nunc non blandit massa. Nisl tincidunt eget nullam non nisi est sit amet. Varius
+                            quam
+                            quisque id diam vel quam elementum. Neque vitae tempus quam pellentesque nec nam aliquam.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 bg-white">
+                        <h3>Visualizations</h3><hr></br>
+                        <div class="container overflow-hidden">
+                            <div class="row gy-5">
+                                <div class="col-6">
+                                    <div class="p-3 bg-white"><img src="static/images/Fig1.png" class="rounded float-right" alt="Latitude vs. X"
+                                        style="width:300px"></div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-white"><img src="static/images/Fig2.png" class="rounded float-left" alt="Latitude vs. X"
+                                        style="width:300px"></div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-white"><img src="static/images/Fig3.png" class="rounded float-right" alt="Latitude vs. X"
+                                        style="width:300px"></div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-white"><img src="static/images/Fig4.png" class="rounded float-left" alt="Latitude vs. X"
+                                        style="width:300px"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
