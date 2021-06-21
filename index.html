@@ -2,69 +2,56 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta charset="utf-8">
-    <title>my-data-dashboard</title>
+    
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <title>Web Design Challenge</title>
 
 <body>
-    <style>
-        .container-fluid {
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-    </style>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-8">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <a class="navbar-brand" href="#">
-                        <div class="p-2 bg-info text-white">
-                            <strong>Latitude</strong>
-                        </div>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </nav>
-            </div>
-            <div class="col-6 col-md-4">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="navbar-text">Plots</span>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Temperature</a>
-                                    <a class="dropdown-item" href="#">Humidity</a>
-                                    <a class="dropdown-item" href="#">Cloudiness</a>
-                                    <a class="dropdown-item" href="#">Wind Speed</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><span class="navbar-text">Comparison</span></a>
-                            </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <div class="p-2 bg-info text-white">Latitude</div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><span class="navbar-text">Data</span></a>
-                            </li>
-                        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Temperature</a>
+                        <a class="dropdown-item" href="#">Cloudiness</a>
+                        <a class="dropdown-item" href="#">Humidity</a>
+                        <a class="dropdown-item" href="#">Wind Speed</a>
                     </div>
-                </nav>
-            </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comparisons</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                </li>
+            </ul>
+
         </div>
-        <div class="container-fluid bg-light">
-            <div class="row gx-5">
-                <div class="col">
-                    <div class="p-3 bg-white">
-                        <h3>Summary: Latitude vs. X</h3><hr></br>
+    </nav>
+
+    <div class="container-fluid p-5 bg-light">
+        <div class="container bg-light">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="p-3 bg-white container contents-box">
+                        <h4>Summary: Latitude vs. X</h4>
+                        <hr></br>
                         <p><img src="static/images/Fig1.png" class="rounded float-left" alt="Latitude vs. X"
                                 style="width:300px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec
@@ -79,55 +66,33 @@
                             ornare
                             arcu. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Nisi porta lorem mollis
                             aliquam ut.</p>
-
-                        <p>Nunc non blandit massa enim nec dui nunc mattis enim. Justo nec ultrices dui sapien eget mi
-                            proin. Egestas sed sed risus pretium quam. Mi eget mauris pharetra et. Diam maecenas sed
-                            enim ut
-                            sem viverra aliquet eget. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Urna
-                            id
-                            volutpat lacus laoreet non curabitur gravida arcu. Dui vivamus arcu felis bibendum ut
-                            tristique.
-                            Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Tellus cras adipiscing enim
-                            eu
-                            turpis egestas. Nibh praesent tristique magna sit amet purus gravida. Semper auctor neque
-                            vitae
-                            tempus quam. Neque sodales ut etiam sit amet nisl purus. Varius duis at consectetur lorem
-                            donec.
-                            Ut tristique et egestas quis ipsum. Tincidunt tortor aliquam nulla facilisi cras. Tellus
-                            molestie nunc non blandit massa. Nisl tincidunt eget nullam non nisi est sit amet. Varius
-                            quam
-                            quisque id diam vel quam elementum. Neque vitae tempus quam pellentesque nec nam aliquam.
-                        </p>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="p-3 bg-white">
-                        <h3>Visualizations</h3><hr></br>
-                        <div class="container overflow-hidden">
-                            <div class="row gy-5">
-                                <div class="col-6">
-                                    <div class="p-3 bg-white"><img src="static/images/Fig1.png" class="rounded float-right" alt="Latitude vs. X"
-                                        style="width:300px"></div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="p-3 bg-white"><img src="static/images/Fig2.png" class="rounded float-left" alt="Latitude vs. X"
-                                        style="width:300px"></div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="p-3 bg-white"><img src="static/images/Fig3.png" class="rounded float-right" alt="Latitude vs. X"
-                                        style="width:300px"></div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="p-3 bg-white"><img src="static/images/Fig4.png" class="rounded float-left" alt="Latitude vs. X"
-                                        style="width:300px"></div>
-                                </div>
-                            </div>
+                <div class="col-lg-5">
+                    <div class="p-3 bg-white container contents-box">
+                        <h4>Visualizations</h4>
+                        <hr></br>
+                        <!-- <div class="container"> -->
+                        <div class="row row-cols-*">
+                            <div class="col-xl"><img class="img-fluid" src="static/images/Fig1.png"
+                                    alt="Max Temp"></div>
+                            <div class="col-xl"><img class="img-fluid" src="static/images/Fig2.png"
+                                    alt="Humidity"></div>
                         </div>
+                        <div class="row row-cols-*">
+                            <div class="col-xl"><img class="img-fluid" src="static/images/Fig3.png"
+                                    alt="Cloudiness"></div>
+                            <div class="col-xl"><img class="img-fluid" src="static/images/Fig4.png"
+                                    alt="Wind Speed"></div>
+                        </div>
+                      
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
